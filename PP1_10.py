@@ -23,11 +23,11 @@ def q3():
 
 def q4(): 
   Jan = float(input("Input a number: "))
-  print(math.floor(Jan))
+  print(math.ceil(Jan))
 
 
 def q5(): 
-  Key = float(input("input a number: "))
+  Key = float(input("Input a number: "))
   hen = float(input("Input another number: "))
   Key *= hen / 2
   print(math.trunc(Key))
